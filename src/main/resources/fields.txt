@@ -1,0 +1,47 @@
+
+    product:
+            {
+                "productName":"Milo Tin - 1kg",
+                "section":"Beverages",
+                "quantity":"50",
+                "price":"400.39",
+                "expiryDate":"2022-05-17",
+                "lowStockLevel":"5",
+                "productImageLink":"https://bootdey.com/img/Content/avatar/avatar1.png",
+                "hitDateTime":"2021-05-17 22:52:21"
+            }
+
+    user:
+            {
+                "username":"fem",
+                "password":"idler",
+                "fullName":"Ilario Fermi-Ola",
+                "address":"11 Outcome",
+                "phoneNumber":"110802389704",
+                "profileImageLink":"https://bootdey.com/img/Content/avatar/avatar5.png",
+                "role":"admin"
+            }
+
+    Cart:
+            {
+                "userId":"1",
+                "dateTimeCreated":"2021-05-17 22:52:21",
+                "checkedOut":"true"
+            }
+
+    cartitem:
+            {
+                "cartId":"1",
+                "productId":"1",
+                "quantity":"50",
+                "price":"400.39"
+            }
+
+    sales:
+            {
+                "userId":"1",
+                "productId":"1",
+                "quantity":"5",
+                "price":"500.39",
+                "dateTime":"2021-05-17 22:52:21"
+            }
