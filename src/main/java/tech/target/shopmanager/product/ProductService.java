@@ -1,11 +1,9 @@
-package tech.target.shopmanager.services;
+package tech.target.shopmanager.product;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import tech.target.shopmanager.exceptions.ProductNotFoundException;
-import tech.target.shopmanager.models.Product;
-import tech.target.shopmanager.repos.ProductRepo;
 
 import java.util.List;
 import java.util.UUID;
@@ -41,4 +39,9 @@ public class ProductService {
     public void deleteProduct(Long id){
         productRepo.deleteProductById(id);
     }
+
+    public List<Product> getProductWithPriceLessThanOneThousand() {
+        return productRepo.getProductWithPriceLessThanOneThousand();
+    }
+
 }

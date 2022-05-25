@@ -1,10 +1,8 @@
-package tech.target.shopmanager.resources;
+package tech.target.shopmanager.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tech.target.shopmanager.models.User;
-import tech.target.shopmanager.services.UserService;
 
 import java.util.List;
 

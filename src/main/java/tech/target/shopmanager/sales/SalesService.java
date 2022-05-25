@@ -1,13 +1,10 @@
-package tech.target.shopmanager.services;
+package tech.target.shopmanager.sales;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import tech.target.shopmanager.exceptions.GeneralNotFoundException;
-import tech.target.shopmanager.models.Sales;
-import tech.target.shopmanager.repos.SalesRepo;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service

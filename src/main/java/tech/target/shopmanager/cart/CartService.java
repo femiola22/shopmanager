@@ -1,11 +1,9 @@
-package tech.target.shopmanager.services;
+package tech.target.shopmanager.cart;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import tech.target.shopmanager.exceptions.GeneralNotFoundException;
-import tech.target.shopmanager.models.Cart;
-import tech.target.shopmanager.repos.CartRepo;
 
 import java.util.List;
 

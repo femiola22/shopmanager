@@ -1,11 +1,9 @@
-package tech.target.shopmanager.services;
+package tech.target.shopmanager.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import tech.target.shopmanager.exceptions.UserNotFoundException;
-import tech.target.shopmanager.models.User;
-import tech.target.shopmanager.repos.UserRepo;
 
 import java.util.List;
 import java.util.UUID;

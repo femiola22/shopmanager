@@ -1,17 +1,14 @@
-package tech.target.shopmanager.models;
+package tech.target.shopmanager.cart;
 
 import javax.persistence.*;
-import java.io.Serializable;
-import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.Objects;
 
 @Entity
 @Table(name = "cart")
-public class Cart  implements Serializable {
+public class Cart  {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false, name  = "id")
     private Long id;
 

@@ -1,12 +1,9 @@
-package tech.target.shopmanager.resources;
+package tech.target.shopmanager.sales;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tech.target.shopmanager.models.Sales;
-import tech.target.shopmanager.services.SalesService;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController

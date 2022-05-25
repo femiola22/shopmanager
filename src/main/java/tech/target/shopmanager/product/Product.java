@@ -1,4 +1,4 @@
-package tech.target.shopmanager.models;
+package tech.target.shopmanager.product;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -6,9 +6,9 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "product")
-public class Product  implements Serializable {
+public class Product implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false, name = "id")
     private Long id;
 

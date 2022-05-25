@@ -1,8 +1,7 @@
-package tech.target.shopmanager.repos;
+package tech.target.shopmanager.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import tech.target.shopmanager.models.User;
 
 import java.util.Optional;
 
